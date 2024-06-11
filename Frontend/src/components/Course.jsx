@@ -25,13 +25,13 @@ function Course() {
             <span className="text-pink-500"> Here! :)</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-            assumenda? Repellendus, iste corrupti? Tempore laudantium
-            repellendus accusamus accusantium sed architecto odio, nisi expedita
-            quas quidem nesciunt debitis dolore non aspernatur praesentium
-            assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
-            animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+            Welcome to our community of lifelong learners. Here, you can
+            discover new passions, enhance your skills, and connect with others
+            who share your interests. Our platform offers a variety of resources
+            and courses designed to inspire and educate. Whether you're looking
+            to advance your career, explore new hobbies, or simply satisfy your
+            curiosity, we have something for you. Dive in and start your journey
+            with us today!
           </p>
           <Link to="/">
             <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">

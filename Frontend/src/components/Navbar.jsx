@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import Login from "./Login";
 import Logout from "./Logout";
+
 import { useAuth } from "../context/AuthProvider";
 
 function Navbar() {
@@ -45,10 +46,10 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="/contactUs">Contact Us</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/aboutUs">About</a>
       </li>
     </>
   );
@@ -91,7 +92,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">bookStore</a>
+            <a className=" text-2xl font-bold cursor-pointer">ReadEase</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">

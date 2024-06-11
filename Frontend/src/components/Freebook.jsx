@@ -9,7 +9,7 @@ import axios from "axios";
 import Cards from "./Cards";
 function Freebook() {
   const [book, setBook] = useState([]);
-  useEffect(() => {``
+  useEffect(() => {
     const getBook = async () => {
       try {
         const res = await axios.get("http://localhost:4004/book");
@@ -64,9 +64,7 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+          We offer a variety of free courses to help you grow and succeed. Our courses are designed by experts and cover a wide range of subjects. Whether you're looking to develop new skills or deepen your understanding of a particular topic, our free courses provide the resources and support you need to achieve your goals. Start learning today and unlock your potential!
           </p>
         </div>
 
