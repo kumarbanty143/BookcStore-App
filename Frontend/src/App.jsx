@@ -7,6 +7,7 @@ import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/AuthProvider";
 import ContactUs from "./Pages/ContactUs.";
 import AboutUs from "./Pages/AboutUs";
+import PublishBook from "./Pages/PublishBook";
 
 function App() {
   const [authUser, setAuthUser] = useAuth();
@@ -23,6 +24,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/publishBook" element={<PublishBook/>}/>
         </Routes>
         <Toaster />
       </div>
